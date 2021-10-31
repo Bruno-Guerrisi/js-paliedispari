@@ -20,7 +20,7 @@ function palindroma(Word){
 
     let LetterUser = '';
 
-    for(i=userWord.length - 1; i>-1; i--){
+    for(let i=userWord.length - 1; i>-1; i--){
 
         LetterUser += userWord[i];
         console.log(LetterUser)
